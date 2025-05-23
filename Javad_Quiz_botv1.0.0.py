@@ -7,8 +7,8 @@ from telegram import Update, ReplyKeyboardMarkup, InlineKeyboardButton, InlineKe
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 import asyncio
 
-TOKEN = '7749957143:AAHbo3k4_-O-KpnsGBbyJthEfBhN4iT8Ulo'
-OWNER_ID = 7078388999
+TOKEN = 'bot_token'
+OWNER_ID = 1234567890
 DATA_DIR = 'users'
 WINNER_FILE = 'weekly_winner.json'
 QUESTIONS_FILE = 'questions.json'
